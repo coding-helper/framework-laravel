@@ -13,7 +13,7 @@
 ## v1.0.1 
 - 增加基于redis的token
 - 引入predis
-```shell
+```bash
 composer require predis/predis
 ```
   
