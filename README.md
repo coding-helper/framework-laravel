@@ -24,13 +24,13 @@
  * 需要重新指定redis中存储的键，配置在`.env`
 
 ### 你需要做
-- 执行
+- 安装依赖
 ```shell
-composer install
+  composer install
 ```
-
-- 生成 **.env** 文件
-- 执行
-  * `php artisan key:generate`
+- 配置准备
+```shell
+  ./deploy.sh
+```
 - 更多问题请参考[安装文档](https://laravel-china.org/docs/laravel/5.6/installation/1352)
 
