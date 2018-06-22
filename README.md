@@ -19,12 +19,13 @@
 ```shell
   composer install
 ```
+
 - 配置准备
 ```shell
   ./deploy.sh
 ```
 
-  - 更多问题请参考[安装文档](https://laravel-china.org/docs/laravel/5.6/installation/1352)
+    - 更多问题请参考[安装文档](https://laravel-china.org/docs/laravel/5.6/installation/1352)
 - 配置nginx和fpm
 
 ## 集成组件
