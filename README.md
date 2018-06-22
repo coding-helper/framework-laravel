@@ -5,6 +5,7 @@
 
 ## php extension
 - PHP >= 7.1.3
+- Composer
 - OpenSSL PHP
 - PHP PDO 扩展
 - PHP Mbstring 扩展
