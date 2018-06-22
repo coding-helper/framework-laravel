@@ -13,6 +13,18 @@
 - PHP Ctype 扩展
 - PHP JSON 扩展
 
+## 部署运行
+- 拉取代码
+- 安装依赖
+```shell
+  composer install
+```
+- 配置准备
+```shell
+  ./deploy.sh
+```
+  - 更多问题请参考[安装文档](https://laravel-china.org/docs/laravel/5.6/installation/1352)
+- 配置nginx和fpm
 
 ## 集成组件
 ### predis
@@ -25,15 +37,3 @@ composer require predis/predis
 - 实现了token的中间键
   - 配置在 `config/token.php`
   - 需要重新指定redis中存储的键，配置在`.env`
-
-## 部署运行
-- 安装依赖
-```shell
-  composer install
-```
-- 配置准备
-```shell
-  ./deploy.sh
-```
-- 更多问题请参考[安装文档](https://laravel-china.org/docs/laravel/5.6/installation/1352)
-
