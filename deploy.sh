@@ -8,6 +8,9 @@ mkdir -p storage/logs
 
 chmod 777 -R storage
 
+mkdir -p public/upload
+chmod 777 public/upload
+
 if [ ! -f "./.env" ]; then
   composer install
   cp .env.example .env
